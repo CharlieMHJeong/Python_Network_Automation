@@ -5,6 +5,11 @@ import json
 
 
 #---- Read in pertinent information from user
+#create 'device-creds' file as below: 
+#192.168.122.72,cisco,cisco
+#192.168.122.73,cisco,cisco
+#192.168.122.74,cisco,cisco
+#192.168.122.75,cisco,cisco
 dc_in_filename = input('\nInput CSV filename (device-creds) : ') or 'device-creds'
 key            = input('Encryption key (cisco) ') or 'cisco'
 
