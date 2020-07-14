@@ -30,3 +30,7 @@ from multiprocessing.dummy import Pool as ThreadPool<br/>
 <br/>
 import json<br/>
 import threading<br/>
+
+### Bugs
+Do not create netmiko.py file in the same directory.<br/>
+
