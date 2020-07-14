@@ -6,7 +6,7 @@ This application is going to read cisco device configurations.
 
 ### Requirements
 1. Create 'encrypted-device-creds' encrypted login credential file from "encrypt_device_info.py"<br/>
-2. CSV file 'devices-file' with IP, DeviceType, Hostname<br/>
+2. CSV file 'devices-file' with IP, DeviceType, Hostname with NO Header<br/>
    192.168.122.72, cisco-ios, S1<br/>
    192.168.122.73, cisco-ios, S2<br/>
    192.168.122.74, cisco-ios, R1<br/>
