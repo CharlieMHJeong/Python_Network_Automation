@@ -92,7 +92,7 @@ def config_worker(device, creds):
 # ---- Main: Get Configuration
 #=============================================================================
 
-#Prepare cvs file devices-file
+#Prepare csv file devices-file
 #192.168.122.72, cisco-ios, S1
 #192.168.122.73, cisco-ios, S2
 #192.168.122.74, cisco-ios, R1
