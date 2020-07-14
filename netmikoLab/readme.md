@@ -7,13 +7,14 @@ This application is going to read cisco device configurations.
 ### Requirements
 1. Create 'encrypted-device-creds' encrypted login credential file from "encrypt_device_info.py"<br/>
 2. CSV file 'devices-file' with IP, DeviceType, Hostname with NO Header<br/>
+   ex:</br>
    192.168.122.72, cisco-ios, S1<br/>
    192.168.122.73, cisco-ios, S2<br/>
    192.168.122.74, cisco-ios, R1<br/>
    192.168.122.75, cisco-ios, R2<br/>
 
-### How To in Linux
-1. python3 read_config_threadingpool.py<br/>
+### How To run(in Linux)
+1. python3 get_config_threadingpool.py<br/>
 2. When prompted, enter number of threads that your system can support<br/>
    Number of thread(s) (5):<br/>
 3. Check the config-files:<br/>
