@@ -106,6 +106,6 @@ starting_time = time()
 print("\n ---- Begin get config sequential --------\n")
 for ipaddr,device in devices.items():
     print("Getting config for: ", device)
-    config_worker(device, creds[ipaddr])
+    config_worker(device, creds['ipaddr'])
 
 print("\n ---- End get config sequential, elapsed time= ", time()-starting_time)
