@@ -1,5 +1,5 @@
 # Read Configs from Cisco Device with MultiThreading
-read_config_threadingpool.py
+get_config_threadingpool.py
 
 ## Getting Started
 This application is going to read cisco device configurations.
