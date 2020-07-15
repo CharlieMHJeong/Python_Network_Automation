@@ -7,7 +7,7 @@ If the config in the device is different from the cfg file, it will commit the c
 ### Requirements
 1. Enable scp on the devices:<br/>
    ip scp server enable<br/>
-2. For example 'ACL1.cfg' and 'ospf1.cfg' created in the script<br/>
+2. For example 'ACL1.cfg' and 'ospf1.cfg' created for the script<br/>
    ACL1.cfg<br/>
    access-list 100 permit icmp any any<br/>
    access-list 100 permit tcp any any eq domain<br/>
