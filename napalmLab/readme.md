@@ -5,7 +5,8 @@ napalm_config.py
 If the config in the device is different from the cfg file, it will commit the config other wise will discard the config.
 
 ### Requirements
-1. Create a file for the configurations.<br/>
+1. Enable scp on the devices:<br/>
+   ip scp server enable<br/>
 2. For example 'ACL1.cfg' and 'ospf1.cfg' created in the script<br/>
    ACL1.cfg<br/>
    access-list 100 permit icmp any any<br/>
@@ -18,8 +19,6 @@ If the config in the device is different from the cfg file, it will commit the c
      network 10.1.1.0 0.0.0.255 area 1<br/>
      network 10.1.2.0 0.0.0.255 area 2<br/>
      network 10.1.3.0 0.0.0.255 area 3<br/>
-3. Enable scp on the devices:<br/>
-   ip scp server enable
 
 ### Imported Libraries
 from napalm import get_network_driver<br/>
