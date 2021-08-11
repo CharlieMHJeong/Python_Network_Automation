@@ -33,12 +33,14 @@ for device in devices:
     shiproute = conn.send_command('show ip route')
     #print(shiproute)
     print("--  ----------  ------  --------------  ------  ----------  --------  ------------  ------------------  --------")
-
+    print("Processing device: {}".format(device))
+    print("--  ----------  ------  --------------  ------  ----------  --------  ------------  ------------------  --------")
     parser = TextFSM(StringIO(template))
     hdrs, vals = parser.header, parser.ParseText(shiproute)
     df = DataFrame(vals, columns = hdrs)
     print(tabulate(df, headers=hdrs))
     df.to_csv("{}.csv".format(device))
-
     print("--  ----------  ------  --------------  ------  ----------  --------  ------------  ------------------  --------")
-    print("--  ----------  ------  --------------  ------  ----------  --------  ------------  ------------------  --------")
+    print()
+    print()
+    print()
