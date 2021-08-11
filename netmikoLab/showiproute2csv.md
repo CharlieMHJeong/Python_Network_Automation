@@ -1,7 +1,15 @@
 ## Show IP Route to CSV
 
-Template took from:
+### Template took from:
 https://github.com/networktocode/ntc-templates/blob/master/ntc_templates/templates/cisco_ios_show_ip_route.textfsm
+
+### Required Library:
+pip install netmiko</br>
+pip install textfsm</br>
+pip install pandas</br>
+pip install tabulate</br>
+
+
 
 #./showiproute2csv.py
 
