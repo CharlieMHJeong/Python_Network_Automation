@@ -1,0 +1,11 @@
+import oddNumberIPGenerator
+
+def xyzit_ipgenerator():
+    """
+    :return: Remove Top Ten IPs
+    """
+    odd_ip_list = oddNumberIPGenerator.odd_number_ip_generator()
+    #Modify for test purpose
+    odd_ip_list_exclude_top_ten = odd_ip_list[3:]
+    # odd_ip_list_exclude_top_ten = odd_ip_list[10:]
+    return odd_ip_list_exclude_top_ten
